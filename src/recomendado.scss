@@ -1,0 +1,57 @@
+
+.recomendado {
+    margin-bottom: 56px;
+}
+
+.recomendado-lista ul {
+    background-color: #cac8c8;
+    padding: 12px;
+    width: 720px;
+}
+
+.recomendado-lista-esporte ul {    
+    background-color: #cac8c8;
+    padding: 12px;
+    width: 720px;
+}
+
+.recomendado-lista li {
+    background-color: #eeecec;
+    max-width: 700px;
+    padding: 8px 2px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 8px solid  #cac8c8;
+}
+
+.euro {
+    max-width: 700px;
+}
+
+.euro p {
+    margin: 8px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.recomendado-lista-esporte li {
+    list-style: none;
+    display: flex;
+    
+    background-color: #eeecec;
+    max-width: 700px;
+    padding: 8px 2px;
+    border-radius: 10px;
+    align-items: center;
+    border: 8px solid  #cac8c8;
+}
+
+.recomendado-lista-esporte img {
+    max-width: 90px;
+    height: 64px;
+}
+
+.recomendado-lista img {
+    max-width: 64px;
+}
