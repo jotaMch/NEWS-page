@@ -4,25 +4,57 @@
 }
 
 .recomendado-lista ul {
-    background-color: #cac8c8;
+    background-color: #2d0101;
     padding: 12px;
     width: 720px;
 }
 
-.recomendado-lista-esporte ul {    
-    background-color: #cac8c8;
-    padding: 12px;
-    width: 720px;
+.recomendado-lista-esporte {
+    ul {    
+        background-color: #2d2d2d;
+        border-radius: 4px;
+        padding: 12px;
+        width: 720px;
+
+        li {
+            background-color: #431f1f;
+            border: #171717;
+            box-shadow: 0px 0px 12px 6px #171717;
+            transition: transform all ease .5s;
+
+        &:hover {
+            transform:translateZ(8px);
+        }
+        a {
+            color: #cac8c8;
+        }
+        }
+    }
 }
 
-.recomendado-lista li {
-    background-color: #eeecec;
+.recomendado-lista {
+    ul {
+        background-color: #2d2d2d;
+        border-radius: 4px;
+    }
+    li{
+    background-color: #431f1f;
     max-width: 700px;
     padding: 8px 2px;
     border-radius: 10px;
     display: flex;
     align-items: center;
-    border: 8px solid  #cac8c8;
+    box-shadow: 0px 0px 12px 6px #171717;
+    transition: transform all ease .5s;
+
+    &:hover {
+        transform:translateZ(8px);
+    }
+    a {
+        color: #cac8c8;
+
+    }
+}
 }
 
 .euro {

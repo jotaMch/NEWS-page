@@ -4,15 +4,15 @@ $(document).ready(function() {
     })
 
     $('.deslise').click(function(e) {
-        e.preventDefault(); // Impede o comportamento padrão do link
+        e.preventDefault(); 
 
         var target = $(this).attr('href'); // Obtém o valor do atributo href
 
         $('html, body').animate({
             scrollTop: $(target).offset().top // Realiza a animação de deslize até a seção alvo
-        }, 1000); // Define a velocidade da animação (1000ms = 1 segundo)
+        }, 1000);
 
-        $('.menu').slideUp(); // Fecha o menu após clicar em um item
+        //$('.menu ul').slideUp(); 
     });
 
     $(window).scroll(function() {

@@ -1,4 +1,5 @@
 
+
 .noticia img {
     width: 240px;
     height: 240px;
@@ -7,7 +8,13 @@
 
 .noticia a {
     text-decoration: none;
-    color: #222222;
+    color: #d6cece;
+}
+
+.noticia {
+    background-image: linear-gradient(to bottom, rgba(76, 0, 0, 0.97), #212121c1);
+    padding: 6px;
+    border-radius: 4px;
 }
 
 .noticia h3:hover {
@@ -21,4 +28,41 @@
 
 #noticias {
     padding-bottom: 100px;
+
+    h2 {
+        color: #000000;
+    }
 }
+
+.novidades {
+    h2 {
+        color: #000000;
+        font-weight: bold;
+    }
+}
+
+
+
+#inicio {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+
+  .background-image {
+    background-color: aqua;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/news-1172463.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+  }
