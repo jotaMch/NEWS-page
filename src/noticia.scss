@@ -1,7 +1,8 @@
 
 
 .noticia img {
-    width: 240px;
+    max-width: 240px;
+    width: 100%;
     height: 240px;
     border-radius: 2px;
 }
@@ -22,8 +23,9 @@
 }
 
 .asd img {
-    width: 170px;
+    width: 100%;
     height: 170px;
+    margin: 0 auto;
 }
 
 #noticias {

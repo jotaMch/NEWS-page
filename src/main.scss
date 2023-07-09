@@ -50,7 +50,7 @@ body {
 
         li  {
             list-style: none;
-            box-shadow: 0px 4px 14px 0px #590909ae;
+            box-shadow: 0px 4px 8px 0px #f089895c;
             padding: 4px;
             max-width: 250px;
         }
@@ -123,12 +123,16 @@ section h2 {
 
 aside {
     padding-left: 40px;
-}
+    
+    .noticias {
+        margin-bottom: 24px;
+    }
 
-aside .noticias {
-    margin-bottom: 24px;
+    article {
+        margin-bottom: 10px;
+    }
 }
-
+    
 .noticias {
     display: grid;
     grid-template-columns:  repeat(3, 33.6%);
