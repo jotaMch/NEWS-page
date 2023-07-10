@@ -126,14 +126,21 @@
   background-color: #431f1f;
   max-width: 700px;
   padding: 8px 2px;
+  margin-bottom: 20px;
   border-radius: 10px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   box-shadow: 0px 0px 12px 6px #171717;
   transition: transform all ease 0.5s;
 }
 .recomendado-lista li:hover {
   transform: translateZ(8px);
+}
+.recomendado-lista li img {
+  width: 100%;
+  height: 250px;
+  margin: 0 0;
 }
 .recomendado-lista li a {
   color: #cac8c8;
@@ -163,10 +170,6 @@
 .recomendado-lista-esporte img {
   max-width: 90px;
   height: 64px;
-}
-
-.recomendado-lista img {
-  max-width: 64px;
 }
 
 footer {
@@ -342,7 +345,7 @@ body {
 }
 .saiba-mais ul {
   display: grid;
-  grid-template-columns: repeat(6, 14.2%);
+  grid-template-columns: repeat(6, 15%);
   column-gap: 2%;
 }
 .saiba-mais ul li {
@@ -428,6 +431,11 @@ aside article {
 }
 
 @media screen and (max-width: 767px) {
+  header .container {
+    background-color: #222222;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
   .recomendado-lista li,
   .recomendado-lista-esporte li {
     width: 100%;
@@ -451,7 +459,10 @@ aside article {
   }
   .saiba-mais ul li {
     padding: 2px 4px;
-    width: 156px;
+    width: 100%;
+  }
+  .noticia {
+    margin-bottom: 20px;
   }
   .economia {
     display: block;
@@ -459,6 +470,9 @@ aside article {
   .economia img {
     width: 100%;
     margin: 0;
+  }
+  .novidades h2 {
+    color: #d1d1d1;
   }
   .economia-twu {
     flex-direction: column-reverse;
@@ -477,14 +491,14 @@ aside article {
     display: block;
     font-size: 1.5em;
   }
-  .destaque .noticias img {
-    margin-right: 0;
-  }
   .noticias {
     display: block;
   }
-  .noticias .noticias {
+  .noticias {
     margin-bottom: 32px;
+  }
+  .noticias img {
+    margin-right: 0;
   }
   aside {
     padding-left: 0;
@@ -530,7 +544,7 @@ aside article {
   .saiba-mais ul {
     grid-template-columns: repeat(3, 33.3%);
     column-gap: 1%;
-    row-gap: 2%;
+    row-gap: 4%;
   }
   .saiba-mais ul li {
     padding: 2px 10px;
